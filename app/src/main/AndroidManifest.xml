@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
 
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="${MAPS_API_KEY}" />
         <activity
             android:name=".MainSearchActivity"
             android:exported="false"
@@ -25,6 +28,12 @@
             android:theme="@style/Theme.Project1" />
 
         <activity
+            android:name=".ResultsActivity"
+            android:exported="false"
+            android:label="Results"
+            android:theme="@style/Theme.Project1" />
+
+        <activity
             android:name=".TopHeadlinesActivity"
             android:exported="false"
             android:label="Top Headlines"
@@ -32,7 +41,7 @@
 
         <activity
             android:name=".MapActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="Map"
             android:theme="@style/Theme.Project1" />
 

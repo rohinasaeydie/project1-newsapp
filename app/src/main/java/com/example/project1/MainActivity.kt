@@ -33,7 +33,6 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-//pull request
 @Composable
 fun LoginScreen() {
     val context = LocalContext.current
